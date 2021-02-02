@@ -6,6 +6,8 @@ COPY ./.env.example /app/.env
 
 WORKDIR /app
 
+RUN npm install -g ts-node typescript nodemon
+
 RUN npm install
 
 # ENV MONGODB_URI=mongodb://mongo:27017/mydb

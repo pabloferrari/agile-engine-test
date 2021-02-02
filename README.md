@@ -47,7 +47,9 @@ No redundant REST API calls should be triggered by the app.
 
 ## Run proyect with docker compose
 
-### 1 - docker-compose up -d
+### 1 - npm install
+
+### 2 - docker-compose up -d
 
 ## Endpoints
 
